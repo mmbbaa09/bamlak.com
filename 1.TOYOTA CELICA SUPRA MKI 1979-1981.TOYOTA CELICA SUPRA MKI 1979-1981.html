@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Link File CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/car-logo.png" class="logo" alt="">
+            <div class="menu">
+                <a href="index.htm">Home</a>
+                <a href="toyota.html">Toyota</a>
+                <a href="invented the Supra.html">Invented The Supra</a>
+                <a href="ganeration.html">Ganeration</a>
+                <a href="#">Specials</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="hero">
+
+        <div class="text">
+            
+            <h1> 1.TOYOTA CELICA SUPRA MKI 1979-1981</h1>
+            <p>First generation (A40/A50; 1978) The first generation of the Supra was 
+                  based largely upon the Toyota Celica liftback, but was<br> longer by 129.5 mm
+                 (5.10 in). The doors and rear section were shared with the Celica but the front
+                  panels were elongated to accommodate<br>
+                 the Inline-6 instead of the Celica's 4-cylinder engine.</p>
+           
+        </div>
+
+    </div>
+
+    <script>
+        let heroBg = document.querySelector('.hero');
+
+        setInterval(() => {
+            heroBg.style.backgroundImage = "url(img/bg-light.jpg)"
+            
+            setTimeout(() => {
+                heroBg.style.backgroundImage = "url(img/bg.jpg)"
+            }, 1000);
+        }, 2200);
+    </script>
+</body>
+</html>
